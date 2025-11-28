@@ -1,50 +1,0 @@
-Dependencies for Project 'loging', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\mmc.c)(0x681339CA)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O3 --apcs=interwork --split_sections -IC:\Users\sanje\Downloads\ff15a\source-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\mmc.o --omf_browse .\mmc.crf --depend .\mmc.d)
-I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x532C1500)
-I (C:\Users\sanje\Downloads\ff15a\source\ff.h)(0x67F810AA)
-I (C:\Users\sanje\Downloads\ff15a\source\ffconf.h)(0x67FBE519)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
-I (C:\Users\sanje\Downloads\ff15a\source\mmc.h)(0x68132F9B)
-I (spi.h)(0x67FAA9A7)
-I (delay.h)(0x680AD9E4)
-I (C:\Users\sanje\Downloads\ff15a\source\diskio.h)(0x67FA8C02)
-F (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ff.c)(0x67FA23D9)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O3 --apcs=interwork --split_sections -IC:\Users\sanje\Downloads\ff15a\source-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ff.o --omf_browse .\ff.crf --depend .\ff.d)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
-I (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ff.h)(0x67FA23D9)
-I (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ffconf.h)(0x67FBE675)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
-I (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\diskio.h)(0x67FA23D9)
-F (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ffsystem.c)(0x67FA23D9)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O3 --apcs=interwork --split_sections -IC:\Users\sanje\Downloads\ff15a\source-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ffsystem.o --omf_browse .\ffsystem.crf --depend .\ffsystem.d)
-I (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ff.h)(0x67FA23D9)
-I (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ffconf.h)(0x67FBE675)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
-F (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ffunicode.c)(0x67FA23D9)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O3 --apcs=interwork --split_sections -IC:\Users\sanje\Downloads\ff15a\source-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ffunicode.o --omf_browse .\ffunicode.crf --depend .\ffunicode.d)
-I (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ff.h)(0x67FA23D9)
-I (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ffconf.h)(0x67FBE675)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
-F (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\diskio.c)(0x68132F9E)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O3 --apcs=interwork --split_sections -IC:\Users\sanje\Downloads\ff15a\source-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\diskio.o --omf_browse .\diskio.crf --depend .\diskio.d)
-I (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\diskio.h)(0x67FA23D9)
-I (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ff.h)(0x67FA23D9)
-I (C:\Users\sanje\Downloads\ffsample (1)\lpc23xx\ffconf.h)(0x67FBE675)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
-I (C:\Users\sanje\Downloads\ff15a\source\mmc.h)(0x68132F9B)
-F (.\spi.c)(0x67FB7E59)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O3 --apcs=interwork --split_sections -IC:\Users\sanje\Downloads\ff15a\source-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\spi.o --omf_browse .\spi.crf --depend .\spi.d)
-I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x532C1500)
-I (spi.h)(0x67FAA9A7)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
-I (C:\Users\sanje\Downloads\ff15a\source\ff.h)(0x67F810AA)
-I (C:\Users\sanje\Downloads\ff15a\source\ffconf.h)(0x67FBE519)
-I (C:\Users\sanje\Downloads\ff15a\source\diskio.h)(0x67FA8C02)
-F (.\delay.c)(0x681048F7)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O3 --apcs=interwork --split_sections -IC:\Users\sanje\Downloads\ff15a\source-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
-I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x532C1500)
-I (delay.h)(0x680AD9E4)
-F (.\finalesd.c)(0x681460A9)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O3 --apcs=interwork --split_sections -IC:\Users\sanje\Downloads\ff15a\source-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\finalesd.o --omf_browse .\finalesd.crf --depend .\finalesd.d)
-I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
-I (C:\Users\sanje\Downloads\ff15a\source\ff.h)(0x67F810AA)
-I (C:\Users\sanje\Downloads\ff15a\source\ffconf.h)(0x67FBE519)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
-I (C:\Users\sanje\Downloads\ff15a\source\diskio.h)(0x67FA8C02)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
-I (delay.h)(0x680AD9E4)
-I (C:\Users\sanje\Downloads\ff15a\source\mmc.h)(0x68132F9B)
