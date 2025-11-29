@@ -21,3 +21,5 @@ For the code to work as intended, you must:
   https://elm-chan.org/fsw/ff/  
 
 Make sure the FatFs source files and configuration files are correctly included in your project so that SD card access and file system operations function properly.
+
+- Check the Video to create a virtual image file using Winimage to include it in the sd card module 
